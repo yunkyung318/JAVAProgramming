@@ -13,11 +13,11 @@ public class MenuEx extends JFrame{
 	private void creatMenu() {
 		JMenuBar mb=new JMenuBar();
 		JMenu screenMenu=new JMenu("Screen");
-		
 		screenMenu.add(new JMenuItem("Load"));
 		screenMenu.add(new JMenuItem("Hide"));
 		screenMenu.add(new JMenuItem("ReShow"));
-		screenMenu.addSeparator();
+		
+		screenMenu.addSeparator(); // 분리선 
 		screenMenu.add(new JMenuItem("Exit"));
 		
 		mb.add(screenMenu);
