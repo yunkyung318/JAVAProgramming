@@ -1,5 +1,6 @@
 // 12-6
 import java.awt.Graphics;
+import java.awt.Image;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -17,7 +18,7 @@ public class GraphicsDrawImageEx1 extends JFrame{
 	}
 	
 	class MyPanel extends JPanel{
-		private ImageIcon icon=new ImageIcon("");
+		private ImageIcon icon=new ImageIcon("C:/JAVA/pic/Apple.jpg");
 		private Image img=icon.getImage();
 		
 		public void paintComponent(Graphics g) {
